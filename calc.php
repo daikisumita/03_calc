@@ -9,7 +9,7 @@ $diff = $num1 - $num2;
 $pro = $num1 * $num2;
 $quo = $num1 / $num2;
 
-switch($operator){
+switch ($operator) {
     case 'addition';
         echo "{$num1} + {$num2} = {$sum}";
         break;

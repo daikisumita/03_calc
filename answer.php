@@ -5,7 +5,7 @@ $num2 = '';
 $operator = '';
 
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST'){
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
     $operator = $_POST['operator'];
